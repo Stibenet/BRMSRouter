@@ -22,3 +22,6 @@ curl -X DELETE http://localhost:8080/api/users/4
 
 # 7. Создать контейнер RabbitMQ в Docker
 docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
+# 8. Запуск проекта в Spring boot
+mvn spring-boot:run
